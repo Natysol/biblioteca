@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	background-color: #9CD2C6; 
+}
+header{
+	background-color: #C5A2A3 ;
+}
+img{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navegacion1 a {
+	font-size: 30px;
+	color:white;
+	margin-left:650px;
+}
+
+}
+.navegacion{
+	width: 0%;
+	list-style-position: left;
+
+}
+
+.navegacion nav{
+	*width: 100%;
+	*max-width: 1100px;
+	background: #C5A2A3;
+	margin: 30 right;
+
+
+}
+
+.navegacion nav ul{
+	list-style: none;
+
+}
+
+.navegacion nav > ul > li{
+	display: inline-block;
+}
+
+.navegacion nav > ul > li > a{
+	color: black;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	margin-left: 1300px;
+
+}
+
+.navegacion nav > ul > li > {
+	font-size: 20px;
+	position: absolute;
+	bottom: -8px;
+	display: none;
+}
+
+.navegacion nav > ul > li>{
+	display: block;
+}
+
+.navegacion nav ul li .submenu{
+	background: #C589D3 ;
+	box-shadow: 0px 0px 15px 5px rgb(213, 91, 242);
+	font-family: Verdana;
+	padding: 50px;
+	width: 1366px;
+	position: absolute;
+	display: none;
+	-webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	-moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.24);
+}
+
+.navegacion nav ul li:hover .submenu{
+	display: flex;
+
+}
+
+.navegacion nav ul li .submenu .submenu-items{
+	margin: 0 20px;
+}
+
+.navegacion nav ul li .submenu .submenu-items p{
+	font-weight: 600;
+	width: 110px;
+	display: block;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #565656;
+	margin-bottom: 10px;
+}
+
+.navegacion nav ul li .submenu .submenu-items a{
+	color: #474747;
+	text-decoration: none;
+	margin: 6px 0;
+	display: block;
+}
+.contenedorcuerpo {
+	margin-top: 10px;
+ 	height: 450px;
+ 	background-color: #8699CD;
+ 	font-family: Verdana;
+ 	color:black;
+}
+.slider{
+	width:95%;
+	margin: auto;
+	overflow: hidden;
+}
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 20 infinite alternate;
+	animation-timing-function:ease-in;
+}
+.slider li{
+	width: 100%;
+	list-style:none;
+}
+.slider img{
+	width: 60%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+@keyframes cambio{
+
+0%{margin-left: 0%;}	
+20%{margin-left: 0%;}	
+25%{margin-left: -100%;}	
+45%{margin-left: -100%;}	
+50%{margin-left: -200%;}	
+70%{margin-left: -200%;}	
+75%{margin-left: -200%;}	
+100%{margin-left: -300%;}	
+}
+
+
+
+
+

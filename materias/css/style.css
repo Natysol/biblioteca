@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	/*padding: 0;*/
+	box-sizing: border-box;
+}
+body{
+	/*margin: 0;*/
+	background-color: #9CD2C6; 
+}
+header{
+	background-color: #C5A2A3 ;
+	padding: 0;
+}
+img{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1{
+
+	font-family: Yu Gothic Light;
+	color: #fff;
+
+}
+a{
+	text-decoration-color: #fff;
+	/*text-decoration: white;*/
+	color:  #fff;
+}
+.contenedorcuerpo {
+	margin-top: 10px;
+ 	height: 100%;
+ 	background-color: #8699CD;
+ 	font-family: Verdana;
+ 	color:black;
+}
+.contenedorliteratura {
+	margin-top: 10px;
+ 	height: 100%;
+ 	background-color: #8699CD;
+ 	font-family: Verdana;
+ 	color:black;
+ 	background-image: linear-gradient(to left, rgba(156, 210, 198),rgba(255, 111, 173),rgba(197, 162, 163),rgba(189, 156, 210), rgba(134, 153, 205));
+
+}
+.contenedorgeografia {
+	margin-top: 10px;
+ 	height: 100%;
+ 	background-color: #8699CD;
+ 	font-family: Verdana;
+ 	color:black;
+ 	background-image: linear-gradient(to left, rgba(156, 210, 198),rgba(255, 111, 173),rgba(197, 162, 163),rgba(189, 156, 210), rgba(134, 153, 205));
+}
+.contenedorcursos {
+	margin-top: 10px;
+ 	height: 100%;
+ 	background-color: #8699CD;
+ 	font-family: Verdana;
+ 	color:black;
+}
+.contenedorlibros{
+	margin-top: 10px;
+	height: 100%;
+	background-color: #8699CD;
+	font-family: Yu Gothic Light;
+	color: black;
+	background-image: linear-gradient(to left,rgba(70,68,171),rgba(241,130,224),rgba(151,31,104),rgba(241,130,224),rgba(70,68,171));
+}
+.p1{
+	text-align: center;
+	border: 1px white solid;
+	border-radius: 0px;
+	padding: 30px;
+	width: 100%;
+	margin-right: 50px;
+	/*background-image: linear-gradient(to left, rgba(13, 24, 86),rgba(165, 205, 232),rgba(134, 147, 215));*/
+	font-family: Yu Gothic Light;
+	font-size: 70px;
+	color: #fff;
+}
+.p2{
+	text-align: center;
+	border: 1px white solid;
+	border-radius: 0px;
+	padding: 30px;
+	width: 100%;
+	margin-right: 50px;
+	/*background-image: linear-gradient(to left, rgba(13, 24, 86),rgba(165, 205, 232),rgba(134, 147, 215));*/
+	font-family: Yu Gothic Light;
+	font-size: 70px;
+	color: #fff;
+}
+.p3{
+	text-align: center;
+	border: 1px white solid;
+	border-radius: 0px;
+	padding: 30px;
+	width: 100%;
+	margin-right: 50px;
+	/*background-image: linear-gradient(to left, rgba(13, 24, 86),rgba(165, 205, 232),rgba(134, 147, 215));*/
+	font-family: Yu Gothic Light;
+	font-size: 70px;
+	color: #fff;
+}
+.p4{text-align: center;
+	border: 1px white solid;
+	border-radius: 0px;
+	padding: 30px;
+	width: 100%;
+	margin-right: 50px;
+	/*background-image: linear-gradient(to left, rgba(13, 24, 86),rgba(165, 205, 232),rgba(134, 147, 215));*/
+	font-family: Yu Gothic Light;
+	font-size: 70px;
+	color: #fff;
+}
+.p5{text-align: center;
+	border: 1px white solid;
+	border-radius: 0px;
+	padding: 30px;
+	width: 100%;
+	margin-right: 50px;
+	/*background-image: linear-gradient(to left, rgba(13, 24, 86),rgba(165, 205, 232),rgba(134, 147, 215));*/
+	font-family: Yu Gothic Light;
+	font-size: 70px;
+	color: #fff;
+}
+
+
